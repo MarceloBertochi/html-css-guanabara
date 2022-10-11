@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou siplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture> 
+        <source media="(max-width: 754px)" srcset="imagem/300-300.png" type="image/png"><!--se diminuir mais a tela, essa imagem vai aparecer-->
+        <source media="(max-width: 1050px)" srcset="imagem/700-700.png" type="image/png"><!--se diminuir a tela, essa imagem vai aparecer-->
+        <img src="imagem/1000-1000.png" alt="Imagem flexivel" type="image/png"> <!--foto original-->
+    </picture>
+    <!--type - vai indicar o media type da imagem que usamos-->
+    <!--srcset - vai configurar o nome da imagem que será carregada quando o tamanho indicado for atingido.-->
+    <!--media - indica o tamanho máximo a ser considerado para carregar a imagem indicada no atributo srcset-->
+</body>
+</html>
