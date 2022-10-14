@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproduzindo audios</title>
+</head>
+<body>
+    <h1>Reproduzindo audios</h1>
+    <P>
+        Vamos aprender a reproduzir audios em HTML5
+    </P>
+    <p>
+        <h3 style="color: red;">Configuração com audio src</h3>
+    <audio src="midia/Keep On Movin' - King Canyon.mp3"  autoplay controls loop></audio>
+
+    <audio src="midia/Next Steps - half.cool.mp3" controls autoplay></audio>
+<!--o autoplay não funciona em alguns navegadores, neste caso é importante colocar o parametro controls-->
+<!--o parametro controls faz aparecer um navegodor para podemos clicar em play para o audio começar-->
+<!--o loop vai fazer com que o áudio seja repetido eternamente assim que terminar a sua reprodução-->
+</p>
+
+<p>
+    <h3 style="color:red ;">Configuração com audio preload</h3>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Keep On Movin' - King Canyon.mp3" type="audio/mpeg">
+    </audio>
+    <p>
+        Este navegador não contém suporte para este audio, você pode fazer um upload <a href="midia/Keep On Movin' - King Canyon.rar" download="midia/Keep On Movin' - King Canyon.rar" type="application/rar">clicando aqui</a>
+    </p>
+</p>
+<!--o atributo preload indica se o augio será carregado ou não e aceita 3 valores-->
+<!--*1 - METADATA vai carregar apenas as informações sobre o arquivo-->
+<!--*2 - NONE não vai carregar absolutamente nada até que o usuário clique no botão play ou um script inicie a reprodução-->
+<!--*3 - AUTO vai carregar o arquivo de áudio inteiro assimque a páginaa for carregada, mesmo que o usuário nunca aperte nada, lembrando que o autoplay não funciona em alguns navegadores-->
+</body>
+</html>
