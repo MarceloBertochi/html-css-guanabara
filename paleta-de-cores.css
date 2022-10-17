@@ -1,15 +1,35 @@
 .A8561E {
-    border: 30px; background-color: #a8561e;
-    padding: 30px;
+    border: 10px;
+    background-color: #a8561e;
+    padding: 10px;
 }
 
 .a0078E6 {
-    border: 30px; background-color: #0078E6;
-    padding: 30px;
-    }
+    border: 10px;
+    background-color: #0078E6;
+    padding: 10px;
+}
 
-    .a6D3ACF{
-        border: 30px; background-color: #6D3ACF;
-    padding: 30px;
+.a6D3ACF {
+    border: 10px;
+    background-color: #6D3ACF;
+    padding: 10px;
+}
 
-    }
+.lightgray {
+    border: 10px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.bisque {
+    border: 10px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.burlywood {
+    border: 10px;
+    background-color: burlywood;
+    padding: 10px;
+}
