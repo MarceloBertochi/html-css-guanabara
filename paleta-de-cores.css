@@ -33,3 +33,18 @@
     background-color: burlywood;
     padding: 10px;
 }
+.gold{
+    border: 10px;
+    background-color: gold;
+    padding: 10px;
+}
+.orange{
+    border: 10px;
+    background-color: orange;
+    padding: 10px;
+}
+.darkgreen{
+    border: 10px;
+    background-color: darkgreen;
+    padding: 10px;
+}
